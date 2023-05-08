@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crud Operation</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #9b3e9b;">
+    <h1 style="background-color:rgb(87, 6, 167); color: rgb(7, 212, 248); padding: 20px;">Clinic Visiting Form</h1>
+    <div style="display: flex; justify-content: center;">
+        <form autocomplete="off" onsubmit="onFormSubmit()" style="width: 70%; margin-right: 20px;">
+            <div style="display: flex; justify-content: space-between;">
+                <div style="flex: 1; margin-right: 20px;">
+                    <label for="studentname" style="display: block; margin-bottom: 5px;">Student Name</label>
+                    <input type="text" name="studentname" id="studentname" style="width: 100%; padding: 8px;">
+                </div>
+                <div style="flex: 1;">
+                    <label for="studentnumber" style="display: block; margin-bottom: 5px;">Student Age</label>
+                    <input type="number" name="studentage" id="studentage" style="width: 100%; padding: 8px;">
+                </div>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <div style="flex: 1; margin-right: 20px;">
+                    <label for="symptoms" style="display: block; margin-bottom: 5px;">Symptoms</label>
+                    <input type="text" name="symptoms" id="symptoms" style="width: 100%; padding: 8px;">
+                </div>
+                <div style="flex: 1;">
+                    <label for="date" style="display: block; margin-bottom: 5px;">Date</label>
+                    <input type="date" name="date" id="date" style="width: 100%; padding: 8px;">
+                </div>
+            </div>
+            <br />
+            <div style="display: flex; justify-content: space-between;">
+                <div style="flex: 1; margin-right: 20px;">
+                    <label for="timein" style="display: block; margin-bottom: 5px;">Time In</label>
+                    <input type="time" name="timein" id="timein" style="width: 100%; padding: 8px;">
+                </div>
+                <div style="flex: 1;">
+                    <label for="timeout" style="display: block; margin-bottom: 5px;">Time Out</label>
+                    <input type="time" name="timeout" id="timeout" style="width: 100%; padding: 8px;">
+                </div>
+            </div>
+            <br />
+            <div style="display: flex; justify-content: space-between;">
+                <div style="flex: 1; margin-right: 20px;">
+                    <label for="prescriptions" style="display: block; margin-bottom: 5px;">Prescriptions</label>
+                    <input type="text" name="prescriptions" id="prescriptions" style="width: 100%; padding: 8px;">
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <div style="margin-right: 10px;">
+                        <input type="submit" value="Submit" style="background-color: #4b99d8; color: rgb(10, 10, 10); padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+                    </div>
+                    <div>
+                        <input type="reset" value="Reset" style="background-color: #4b99d8; color: rgb(10, 10, 10); padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+                    </div>
+                </div>
+            </div>
+       </body>
+    </html> 
+     
